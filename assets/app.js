@@ -48,6 +48,7 @@ const i18n = {
 
         // COMMENTS
         commentsBtn: "Коментарі",
+loadMoreBtn: "Завантажити ще...",
         loginToComment: "Увійди, щоб залишити коментар",
         commentPlaceholder: "Напиши щось про гру...",
         noComments: "Поки немає коментарів. Будь першим!",
@@ -82,6 +83,7 @@ const i18n = {
 
         // COMMENTS
         commentsBtn: "Comments",
+loadMoreBtn: "Load more...",
         loginToComment: "Sign in to leave a comment",
         commentPlaceholder: "Write something about the game...",
         noComments: "No comments yet. Be the first!",
@@ -116,6 +118,7 @@ const i18n = {
 
         // COMMENTS
         commentsBtn: "Комментарии",
+loadMoreBtn: "Загрузить еще...",
         loginToComment: "Войди, чтобы оставить комментарий",
         commentPlaceholder: "Напиши что-то об игре...",
         noComments: "Пока нет комментариев. Будь первым!",
