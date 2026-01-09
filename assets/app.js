@@ -1019,6 +1019,18 @@ const commentEls = {
     myAvatar: document.getElementById('my-comment-avatar')
 };
 
+// НОВИЙ КОД: Вхід при кліку на "Увійди, щоб коментувати"
+if (commentEls.btnLoginMsg) {
+    commentEls.btnLoginMsg.onclick = async () => {
+        try {
+            await signInWithPopup(auth, new GoogleAuthProvider());
+        } catch (e) {
+            console.error(e);
+            alert(i18n[currentLang].loginError);
+        }
+    };
+}
+
 // Відкрити/Закрити секцію
 if(commentEls.btnToggle) {
     commentEls.btnToggle.onclick = () => {
